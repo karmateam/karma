@@ -1,9 +1,9 @@
-Building Karmacoincoin
+Building Karma
 
-See doc/readme-qt.rst for instructions on building Karmacoincoin-Qt,
+See doc/readme-qt.rst for instructions on building Karma-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Karmacoincoin.
+implementation of Karma.
 
-See doc/build-*.txt for instructions on building karmacoincoind,
+See doc/build-*.txt for instructions on building karmad,
 the intended-for-services, no-graphical-interface, reference
-implementation of Karmacoincoin.
+implementation of Karma.

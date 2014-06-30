@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Karmacoin</source>
-        <translation>Apie Karmacoin</translation>
+        <source>About Karma</source>
+        <translation>Apie Karma</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Karmacoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Karmacoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Karma&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Karma&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,7 +33,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+0"/>
-        <source>The Karmacoin developers</source>
+        <source>The Karma developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -66,8 +66,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Karmacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tai yra jūsų Karmacoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
+        <source>These are your Karma addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tai yra jūsų Karma adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Karmacoin address</source>
-        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Karmacoin adreso savininkas</translation>
+        <source>Sign a message to prove you own a Karma address</source>
+        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Karma adreso savininkas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Karmacoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Karmacoin adresas</translation>
+        <source>Verify a message to ensure it was signed with a specified Karma address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Karma adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Karmacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Karma addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -274,8 +274,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-56"/>
-        <source>Karmacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your karmacoins from being stolen by malware infecting your computer.</source>
-        <translation>Karmacoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti karmacoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Karma will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your karmas from being stolen by malware infecting your computer.</source>
+        <translation>Karma dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti karmaų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Karmacoin</source>
-        <translation>Rodyti informaciją apie Karmacoin</translation>
+        <source>Show information about Karma</source>
+        <translation>Rodyti informaciją apie Karma</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Karmacoin address</source>
-        <translation>Siųsti monetas Karmacoin adresui</translation>
+        <source>Send coins to a Karma address</source>
+        <translation>Siųsti monetas Karma adresui</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Karmacoin</source>
-        <translation>Keisti karmacoin konfigūracijos galimybes</translation>
+        <source>Modify configuration options for Karma</source>
+        <translation>Keisti karma konfigūracijos galimybes</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Karmacoin</source>
-        <translation>Karmacoin</translation>
+        <source>Karma</source>
+        <translation>Karma</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Karmacoin</source>
-        <translation>&amp;Apie Karmacoin</translation>
+        <source>&amp;About Karma</source>
+        <translation>&amp;Apie Karma</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,12 +499,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Karmacoin addresses to prove you own them</source>
+        <source>Sign messages with your Karma addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Karmacoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Karma addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -535,13 +535,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+47"/>
-        <source>Karmacoin client</source>
-        <translation>Karmacoin klientas</translation>
+        <source>Karma client</source>
+        <translation>Karma klientas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Karmacoin network</source>
-        <translation><numerusform>%n Karmacoin tinklo aktyvus ryšys</numerusform><numerusform>%n Karmacoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Karmacoin tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to Karma network</source>
+        <translation><numerusform>%n Karma tinklo aktyvus ryšys</numerusform><numerusform>%n Karma tinklo aktyvūs ryšiai</numerusform><numerusform>%n Karma tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -654,7 +654,7 @@ Adresas: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Karmacoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Karma address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,7 +669,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Karmacoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Karma can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -735,8 +735,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Karmacoin address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Karmacoin adresas.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Karma address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Karma adresas.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -754,8 +754,8 @@ Adresas: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Karmacoin-Qt</source>
-        <translation>Karmacoin-Qt</translation>
+        <source>Karma-Qt</source>
+        <translation>Karma-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -817,13 +817,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Karmacoin after logging in to the system.</source>
+        <source>Automatically start Karma after logging in to the system.</source>
         <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Karmacoin on system login</source>
-        <translation>&amp;Paleisti Karmacoin programą su window sistemos paleidimu</translation>
+        <source>&amp;Start Karma on system login</source>
+        <translation>&amp;Paleisti Karma programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -842,8 +842,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Karmacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Karmacoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Karma client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Karma kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -852,7 +852,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Karmacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Karma network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
     </message>
     <message>
@@ -927,8 +927,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Karmacoin.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Karmacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Karma.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Karma.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -942,7 +942,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Karmacoin addresses in the transaction list or not.</source>
+        <source>Whether to show Karma addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -994,7 +994,7 @@ Adresas: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Karmacoin.</source>
+        <source>This setting will take effect after restarting Karma.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1013,7 +1013,7 @@ Adresas: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Karmacoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Karma network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1067,7 +1067,7 @@ Adresas: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start karmacoin: click-to-pay handler</source>
+        <source>Cannot start karma: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1217,7 +1217,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Karmacoin-Qt help message to get a list with possible Karmacoin command-line options.</source>
+        <source>Show the Karma-Qt help message to get a list with possible Karma command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,13 +1237,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Karmacoin - Debug window</source>
-        <translation>Karmacoin - Derinimo langas</translation>
+        <source>Karma - Debug window</source>
+        <translation>Karma - Derinimo langas</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Karmacoin Core</source>
-        <translation>Karmacoin branduolys</translation>
+        <source>Karma Core</source>
+        <translation>Karma branduolys</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1252,7 +1252,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Karmacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Karma debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1262,7 +1262,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Karmacoin RPC console.</source>
+        <source>Welcome to the Karma RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1446,7 +1446,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Karmacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Karma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1511,7 +1511,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Karmacoin address</source>
+        <source>Sign the message to prove you own this Karma address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1547,8 +1547,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Karmacoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Karmacoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Karma address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Karma adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,7 +1563,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Karmacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Karma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1573,8 +1573,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Karmacoin signature</source>
-        <translation>Įveskite Karmacoin parašą</translation>
+        <source>Enter Karma signature</source>
+        <translation>Įveskite Karma parašą</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1647,7 +1647,7 @@ Adresas: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Karmacoin developers</source>
+        <source>The Karma developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2185,8 +2185,8 @@ Adresas: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Karmacoin version</source>
-        <translation>Karmacoin versija</translation>
+        <source>Karma version</source>
+        <translation>Karma versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2195,8 +2195,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or karmacoind</source>
-        <translation>Siųsti komandą serveriui arba karmacoind</translation>
+        <source>Send command to -server or karmad</source>
+        <translation>Siųsti komandą serveriui arba karmad</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2215,13 +2215,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: karmacoin.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: karmacoin.conf)</translation>
+        <source>Specify configuration file (default: karma.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: karma.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: karmacoind.pid)</source>
-        <translation>Nurodyti pid failą (pagal nutylėjimą: karmacoind.pid)</translation>
+        <source>Specify pid file (default: karmad.pid)</source>
+        <translation>Nurodyti pid failą (pagal nutylėjimą: karmad.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2298,13 +2298,13 @@ Adresas: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=karmacoinrpc
+rpcuser=karmarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Karma Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Karmacoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Karma is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2365,8 +2365,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Karmacoin will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Karmacoin, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Karma will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Karma, veiks netinkamai.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2615,8 +2615,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Karmacoin Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Karmacoin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Karma Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Karma Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2805,13 +2805,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Karmacoin</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Karmacoin versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Karma</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Karma versijos</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Karmacoin to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Karmacoin</translation>
+        <source>Wallet needed to be rewritten: restart Karma to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Karma</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2870,8 +2870,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Karmacoin is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Karmacoin tikriausiai jau veikia.</translation>
+        <source>Unable to bind to %s on this computer. Karma is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Karma tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -1,7 +1,7 @@
 src/*.exe
-src/karmacoin
-src/karmacoind
-src/test_karmacoin
+src/karma
+src/karmad
+src/test_karma
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_karmacoin
 *.orig
 *.o
 *.patch
-.karmacoin
+.karma
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile*
-karmacoin-qt
-Karmacoin-Qt.app
+karma-qt
+Karma-Qt.app
 
 # Unit-tests
 Makefile.test
-karmacoin-qt_test
+karma-qt_test
 
 # Resources cpp
 qrc_*.cpp

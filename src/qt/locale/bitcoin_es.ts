@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Karmacoin</source>
-        <translation>Acerca de Karmacoin</translation>
+        <source>About Karma</source>
+        <translation>Acerca de Karma</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Karmacoin&lt;/b&gt; version</source>
-        <translation>Versión de &lt;b&gt;Karmacoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Karma&lt;/b&gt; version</source>
+        <translation>Versión de &lt;b&gt;Karma&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,8 +37,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+0"/>
-        <source>The Karmacoin developers</source>
-        <translation>Los programadores Karmacoin</translation>
+        <source>The Karma developers</source>
+        <translation>Los programadores Karma</translation>
     </message>
 </context>
 <context>
@@ -70,8 +70,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Karmacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son sus direcciones Karmacoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
+        <source>These are your Karma addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son sus direcciones Karma para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -85,8 +85,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Karmacoin address</source>
-        <translation>Firmar un mensaje para demostrar que se posee una dirección Karmacoin</translation>
+        <source>Sign a message to prove you own a Karma address</source>
+        <translation>Firmar un mensaje para demostrar que se posee una dirección Karma</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -110,8 +110,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Karmacoin address</source>
-        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Karmacoin indicada</translation>
+        <source>Verify a message to ensure it was signed with a specified Karma address</source>
+        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Karma indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -125,8 +125,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Karmacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Karmacoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
+        <source>These are your Karma addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Karma para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-56"/>
-        <source>Karmacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your karmacoins from being stolen by malware infecting your computer.</source>
-        <translation>Karmacoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus karmacoins de robo por malware que infecte su sistema.</translation>
+        <source>Karma will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your karmas from being stolen by malware infecting your computer.</source>
+        <translation>Karma se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus karmas de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Karmacoin</source>
-        <translation>Mostrar información acerca de Karmacoin</translation>
+        <source>Show information about Karma</source>
+        <translation>Mostrar información acerca de Karma</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Karmacoin address</source>
-        <translation>Enviar monedas a una dirección Karmacoin</translation>
+        <source>Send coins to a Karma address</source>
+        <translation>Enviar monedas a una dirección Karma</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Karmacoin</source>
-        <translation>Modificar las opciones de configuración de Karmacoin</translation>
+        <source>Modify configuration options for Karma</source>
+        <translation>Modificar las opciones de configuración de Karma</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -458,8 +458,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Karmacoin</source>
-        <translation>Karmacoin</translation>
+        <source>Karma</source>
+        <translation>Karma</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -483,8 +483,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Karmacoin</source>
-        <translation>&amp;Acerca de Karmacoin</translation>
+        <source>&amp;About Karma</source>
+        <translation>&amp;Acerca de Karma</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,13 +503,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Karmacoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Karmacoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Karma addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Karma para demostrar la propiedad</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Karmacoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Karmacoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Karma addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Karma concretas</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -539,13 +539,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+47"/>
-        <source>Karmacoin client</source>
-        <translation>Cliente Karmacoin</translation>
+        <source>Karma client</source>
+        <translation>Cliente Karma</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Karmacoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red Karmacoin</numerusform><numerusform>%n conexiones activas hacia la red Karmacoin</numerusform></translation>
+        <source>%n active connection(s) to Karma network</source>
+        <translation><numerusform>%n conexión activa hacia la red Karma</numerusform><numerusform>%n conexiones activas hacia la red Karma</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -659,8 +659,8 @@ Dirección: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Karmacoin address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Karmacoin inválida o a parámetros de URI mal formados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Karma address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Karma inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -674,8 +674,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Karmacoin can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error crítico. Karmacoin ya no puede continuar con seguridad y se cerrará.</translation>
+        <source>A fatal error occurred. Karma can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error crítico. Karma ya no puede continuar con seguridad y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -740,8 +740,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Karmacoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección Karmacoin válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Karma address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Karma válida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -759,8 +759,8 @@ Dirección: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Karmacoin-Qt</source>
-        <translation>Karmacoin-Qt</translation>
+        <source>Karma-Qt</source>
+        <translation>Karma-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -822,13 +822,13 @@ Dirección: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Karmacoin after logging in to the system.</source>
-        <translation>Iniciar Karmacoin automáticamente al encender el sistema.</translation>
+        <source>Automatically start Karma after logging in to the system.</source>
+        <translation>Iniciar Karma automáticamente al encender el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Karmacoin on system login</source>
-        <translation>&amp;Iniciar Karmacoin al iniciar el sistema</translation>
+        <source>&amp;Start Karma on system login</source>
+        <translation>&amp;Iniciar Karma al iniciar el sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -847,8 +847,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Karmacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Karmacoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Karma client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Karma en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Karmacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar a la red Karmacoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
+        <source>Connect to the Karma network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar a la red Karma a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,8 +932,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Karmacoin.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Karmacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Karma.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Karma.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -947,8 +947,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Karmacoin addresses in the transaction list or not.</source>
-        <translation>Mostrar o no las direcciones Karmacoin en la lista de transacciones.</translation>
+        <source>Whether to show Karma addresses in the transaction list or not.</source>
+        <translation>Mostrar o no las direcciones Karma en la lista de transacciones.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -999,8 +999,8 @@ Dirección: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Karmacoin.</source>
-        <translation>Esta configuración tendrá efecto tras reiniciar Karmacoin.</translation>
+        <source>This setting will take effect after restarting Karma.</source>
+        <translation>Esta configuración tendrá efecto tras reiniciar Karma.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1018,8 +1018,8 @@ Dirección: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Karmacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Karmacoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Karma network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Karma después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1072,8 +1072,8 @@ Dirección: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start karmacoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar karmacoin: manejador de pago-al-clic</translation>
+        <source>Cannot start karma: click-to-pay handler</source>
+        <translation>No se pudo iniciar karma: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -1222,8 +1222,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Karmacoin-Qt help message to get a list with possible Karmacoin command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de Karmacoin-Qt que enumera las opciones disponibles de línea de órdenes para Karmacoin.</translation>
+        <source>Show the Karma-Qt help message to get a list with possible Karma command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de Karma-Qt que enumera las opciones disponibles de línea de órdenes para Karma.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,13 +1242,13 @@ Dirección: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Karmacoin - Debug window</source>
-        <translation>Karmacoin - Ventana de depuración</translation>
+        <source>Karma - Debug window</source>
+        <translation>Karma - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Karmacoin Core</source>
-        <translation>Núcleo de Karmacoin</translation>
+        <source>Karma Core</source>
+        <translation>Núcleo de Karma</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1257,7 +1257,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Karmacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Karma debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede llevar varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1267,8 +1267,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Karmacoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Karmacoin</translation>
+        <source>Welcome to the Karma RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Karma</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1451,8 +1451,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Karmacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduzca una dirección Karmacoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Karma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduzca una dirección Karma (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1516,8 +1516,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Karmacoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Karmacoin</translation>
+        <source>Sign the message to prove you own this Karma address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Karma</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1552,8 +1552,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Karmacoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Karmacoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Karma address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Karma indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,8 +1568,8 @@ Dirección: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Karmacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduzca una dirección Karmacoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Karma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduzca una dirección Karma (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,8 +1578,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Karmacoin signature</source>
-        <translation>Introduzca una firma Karmacoin</translation>
+        <source>Enter Karma signature</source>
+        <translation>Introduzca una firma Karma</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,8 +1652,8 @@ Dirección: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Karmacoin developers</source>
-        <translation>Los programadores Karmacoin</translation>
+        <source>The Karma developers</source>
+        <translation>Los programadores Karma</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2190,8 +2190,8 @@ Dirección: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Karmacoin version</source>
-        <translation>Versión de Karmacoin</translation>
+        <source>Karma version</source>
+        <translation>Versión de Karma</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2200,8 +2200,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or karmacoind</source>
-        <translation>Envíar comando a -server o karmacoind</translation>
+        <source>Send command to -server or karmad</source>
+        <translation>Envíar comando a -server o karmad</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2223,14 +2223,14 @@ Dirección: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: karmacoin.conf)</source>
-        <translation>Especificar archivo de configuración (predeterminado: karmacoin.conf)
+        <source>Specify configuration file (default: karma.conf)</source>
+        <translation>Especificar archivo de configuración (predeterminado: karma.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: karmacoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: karmacoin.pid)
+        <source>Specify pid file (default: karmad.pid)</source>
+        <translation>Especificar archivo pid (predeterminado: karma.pid)
 </translation>
     </message>
     <message>
@@ -2311,24 +2311,24 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=karmacoinrpc
+rpcuser=karmarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Karma Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=karmacoinrpc
+rpcuser=karmarpc
 rpcpassword=%s
 (no es necesario recordar esta contraseña)
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
 Si el archivo no existe, créelo con permisos de archivo de solo lectura.
 Se recomienda también establecer alertnotify para recibir notificaciones de problemas.
-Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@foo.com
+Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karma Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2343,8 +2343,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Karmacoin is probably already running.</source>
-        <translation>No se puede bloquear el directorio de datos %s. Probablemente Karmacoin ya se está ejecutando.</translation>
+        <source>Cannot obtain a lock on data directory %s. Karma is probably already running.</source>
+        <translation>No se puede bloquear el directorio de datos %s. Probablemente Karma ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2388,8 +2388,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Karmacoin will not work properly.</source>
-        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Karmacoin no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Karma will not work properly.</source>
+        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Karma no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2638,8 +2638,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Karmacoin Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la Karmacoin Wiki para instrucciones de configuración SSL)</translation>
+        <source>SSL options: (see the Karma Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la Karma Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2838,13 +2838,13 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Karmacoin</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Karmacoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Karma</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Karma</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Karmacoin to complete</source>
-        <translation>El monedero ha necesitado ser reescrito. Reinicie Karmacoin para completar el proceso</translation>
+        <source>Wallet needed to be rewritten: restart Karma to complete</source>
+        <translation>El monedero ha necesitado ser reescrito. Reinicie Karma para completar el proceso</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2903,8 +2903,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Karmacoin is probably already running.</source>
-        <translation>No es posible conectar con %s en este sistema. Probablemente Karmacoin ya está ejecutándose.</translation>
+        <source>Unable to bind to %s on this computer. Karma is probably already running.</source>
+        <translation>No es posible conectar con %s en este sistema. Probablemente Karma ya está ejecutándose.</translation>
     </message>
     <message>
         <location line="+64"/>

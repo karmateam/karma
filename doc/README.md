@@ -1,4 +1,4 @@
-Karmacoin 0.8.x BETA
+Karma 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2013 Bitcoin Developers
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Karmacoin is a free open source peer-to-peer electronic cash system that is
+Karma is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,17 +20,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run Karmacoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Karma-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/karmacoin-qt (GUI, 32-bit)
-- bin/32/karmacoind (headless, 32-bit)
-- bin/64/karmacoin-qt (GUI, 64-bit)
-- bin/64/karmacoind (headless, 64-bit)
+- bin/32/karma-qt (GUI, 32-bit)
+- bin/32/karmad (headless, 32-bit)
+- bin/64/karma-qt (GUI, 64-bit)
+- bin/64/karmad (headless, 64-bit)
 
-See the documentation at the [Karmacoin Wiki](http://http://www.karmacoin.info)
+See the documentation at the [Karma Wiki](http://http://www.karmacoin.info)
 for help and more information.
 
 

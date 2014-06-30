@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Karmacoins");
-    case mBTC: return QString("Milli-Karmacoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Karmacoins (1 / 1,000,000)");
+    case BTC: return QString("Karmas");
+    case mBTC: return QString("Milli-Karmas (1 / 1,000)");
+    case uBTC: return QString("Micro-Karmas (1 / 1,000,000)");
     default: return QString("???");
     }
 }

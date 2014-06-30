@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>karma</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>karma</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleShortVersionString</key>
+        <string>0.8.6.2.5</string>
+	<key>CFBundleVersion</key>
+        <string>0.8.6.2.5</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string>Karma.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Karma</string>
+	<key>CFBundleSignature</key>
+	<string>KARM</string>
+	<key>CFBundleExecutable</key>
+	<string>Karma-Qt</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.karma.wallet-qt</string>
+	<key>CFBundleName</key>
+	<string>Karma-Qt</string>
+</dict>
+</plist>

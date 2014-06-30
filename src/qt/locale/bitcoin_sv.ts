@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Karmacoin</source>
-        <translation>Om Karmacoin</translation>
+        <source>About Karma</source>
+        <translation>Om Karma</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Karmacoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Karmacoin&lt;/b&gt;-version</translation>
+        <source>&lt;b&gt;Karma&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Karma&lt;/b&gt;-version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,8 +35,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+0"/>
-        <source>The Karmacoin developers</source>
-        <translation>Karmacoin-utvecklarna</translation>
+        <source>The Karma developers</source>
+        <translation>Karma-utvecklarna</translation>
     </message>
 </context>
 <context>
@@ -68,8 +68,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Karmacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Detta är dina Karmacoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
+        <source>These are your Karma addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Detta är dina Karma-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,7 +83,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Karmacoin address</source>
+        <source>Sign a message to prove you own a Karma address</source>
         <translation>Signera ett meddelande för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -108,8 +108,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Karmacoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade Karmacoin-adressen</translation>
+        <source>Verify a message to ensure it was signed with a specified Karma address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade Karma-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,8 +123,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Karmacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Karmacoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Karmacoins.</translation>
+        <source>These are your Karma addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Karma adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Karmas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -139,7 +139,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Skicka &amp;Karmacoins</translation>
+        <translation>Skicka &amp;Karmas</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -276,7 +276,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-56"/>
-        <source>Karmacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your karmacoins from being stolen by malware infecting your computer.</source>
+        <source>Karma will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your karmas from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -375,8 +375,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Karmacoin</source>
-        <translation>Visa information om Karmacoin</translation>
+        <source>Show information about Karma</source>
+        <translation>Visa information om Karma</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Karmacoin address</source>
-        <translation>Skicka mynt till en Karmacoin-adress</translation>
+        <source>Send coins to a Karma address</source>
+        <translation>Skicka mynt till en Karma-adress</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Karmacoin</source>
-        <translation>Ändra konfigurationsalternativ för Karmacoin</translation>
+        <source>Modify configuration options for Karma</source>
+        <translation>Ändra konfigurationsalternativ för Karma</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Karmacoin</source>
-        <translation>Karmacoin</translation>
+        <source>Karma</source>
+        <translation>Karma</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Karmacoin</source>
-        <translation>&amp;Om Karmacoin</translation>
+        <source>&amp;About Karma</source>
+        <translation>&amp;Om Karma</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Karmacoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Karmacoinadress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Karma addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Karmaadress för att bevisa att du äger dem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Karmacoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Karmacoin-adressen</translation>
+        <source>Verify messages to ensure they were signed with specified Karma addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Karma-adressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+47"/>
-        <source>Karmacoin client</source>
-        <translation>Karmacoin-klient</translation>
+        <source>Karma client</source>
+        <translation>Karma-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Karmacoin network</source>
-        <translation><numerusform>%n aktiv anslutning till Karmacoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till Karmacoin-nätverket</numerusform></translation>
+        <source>%n active connection(s) to Karma network</source>
+        <translation><numerusform>%n aktiv anslutning till Karma-nätverket</numerusform><numerusform>%n aktiva anslutningar till Karma-nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -657,8 +657,8 @@ Adress: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Karmacoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Karmacoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Karma address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Karma-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,8 +672,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Karmacoin can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. Karmacoin kan inte längre köras säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. Karma can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. Karma kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -738,8 +738,8 @@ Adress: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Karmacoin address.</source>
-        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Karmacoin-adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Karma address.</source>
+        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Karma-adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -757,8 +757,8 @@ Adress: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Karmacoin-Qt</source>
-        <translation>Karmacoin-Qt</translation>
+        <source>Karma-Qt</source>
+        <translation>Karma-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -820,13 +820,13 @@ Adress: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Karmacoin after logging in to the system.</source>
-        <translation>Starta Karmacoin automatiskt efter inloggning.</translation>
+        <source>Automatically start Karma after logging in to the system.</source>
+        <translation>Starta Karma automatiskt efter inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Karmacoin on system login</source>
-        <translation>&amp;Starta Karmacoin vid systemstart</translation>
+        <source>&amp;Start Karma on system login</source>
+        <translation>&amp;Starta Karma vid systemstart</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -845,8 +845,8 @@ Adress: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Karmacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Karmacoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the Karma client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Karma-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -855,8 +855,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Karmacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till Karmacoin-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the Karma network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till Karma-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -930,8 +930,8 @@ Adress: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Karmacoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Karmacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Karma.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Karma.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -945,8 +945,8 @@ Adress: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Karmacoin addresses in the transaction list or not.</source>
-        <translation>Anger om Karmacoin-adresser skall visas i transaktionslistan.</translation>
+        <source>Whether to show Karma addresses in the transaction list or not.</source>
+        <translation>Anger om Karma-adresser skall visas i transaktionslistan.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -997,8 +997,8 @@ Adress: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Karmacoin.</source>
-        <translation>Denna inställning träder i kraft efter en omstart av Karmacoin.</translation>
+        <source>This setting will take effect after restarting Karma.</source>
+        <translation>Denna inställning träder i kraft efter en omstart av Karma.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1016,8 +1016,8 @@ Adress: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Karmacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Karmacoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Karma network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Karma-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1070,8 +1070,8 @@ Adress: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start karmacoin: click-to-pay handler</source>
-        <translation>Kan inte starta karmacoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start karma: click-to-pay handler</source>
+        <translation>Kan inte starta karma: klicka-och-betala handhavare</translation>
     </message>
 </context>
 <context>
@@ -1220,8 +1220,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Karmacoin-Qt help message to get a list with possible Karmacoin command-line options.</source>
-        <translation>Visa Karmacoin-Qt hjälpmeddelande för att få en lista med möjliga Karmacoin kommandoradsalternativ.</translation>
+        <source>Show the Karma-Qt help message to get a list with possible Karma command-line options.</source>
+        <translation>Visa Karma-Qt hjälpmeddelande för att få en lista med möjliga Karma kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1240,13 +1240,13 @@ Adress: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Karmacoin - Debug window</source>
-        <translation>Karmacoin - Debug fönster</translation>
+        <source>Karma - Debug window</source>
+        <translation>Karma - Debug fönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Karmacoin Core</source>
-        <translation>Karmacoin Kärna</translation>
+        <source>Karma Core</source>
+        <translation>Karma Kärna</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1255,8 +1255,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Karmacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Karmacoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the Karma debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Karma debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1265,8 +1265,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Karmacoin RPC console.</source>
-        <translation>Välkommen till Karmacoin RPC-konsollen.</translation>
+        <source>Welcome to the Karma RPC console.</source>
+        <translation>Välkommen till Karma RPC-konsollen.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1449,8 +1449,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Karmacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en Karmacoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Karma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en Karma-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1514,7 +1514,7 @@ Adress: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Karmacoin address</source>
+        <source>Sign the message to prove you own this Karma address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -1550,8 +1550,8 @@ Adress: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Karmacoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Karmacoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Karma address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Karma-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,8 +1566,8 @@ Adress: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Karmacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en Karmacoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Karma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en Karma-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1576,8 @@ Adress: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Karmacoin signature</source>
-        <translation>Ange Karmacoin-signatur</translation>
+        <source>Enter Karma signature</source>
+        <translation>Ange Karma-signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,8 +1650,8 @@ Adress: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Karmacoin developers</source>
-        <translation>Karmacoin-utvecklarna</translation>
+        <source>The Karma developers</source>
+        <translation>Karma-utvecklarna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2188,8 +2188,8 @@ Adress: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Karmacoin version</source>
-        <translation>Karmacoin version</translation>
+        <source>Karma version</source>
+        <translation>Karma version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2198,8 +2198,8 @@ Adress: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or karmacoind</source>
-        <translation>Skicka kommando till -server eller karmacoind</translation>
+        <source>Send command to -server or karmad</source>
+        <translation>Skicka kommando till -server eller karmad</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Adress: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: karmacoin.conf)</source>
-        <translation>Ange konfigurationsfil (förvalt: karmacoin.conf)</translation>
+        <source>Specify configuration file (default: karma.conf)</source>
+        <translation>Ange konfigurationsfil (förvalt: karma.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: karmacoind.pid)</source>
-        <translation>Ange pid fil (förvalt: karmacoind.pid)</translation>
+        <source>Specify pid file (default: karmad.pid)</source>
+        <translation>Ange pid fil (förvalt: karmad.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Adress: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=karmacoinrpc
+rpcuser=karmarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Karma Alert&quot; admin@foo.com
 </source>
         <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
 %s
 Det är rekommenderat att använda följande slumpade lösenord:
-rpcuser=karmacoinrpc
+rpcuser=karmarpc
 rpcpassword=%s
 (du behöver inte komma ihåg lösenordet)
 Användarnamnet och lösenordet FÅR INTE bara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;Karma Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Karmacoin is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Karmacoin körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Karma is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. Karma körs förmodligen redan.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2344,7 +2344,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna karmacoins!</translation>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna karmas!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Karmacoin will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Karmacoin inte fungera korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Karma will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Karma inte fungera korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,8 +2628,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Karmacoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-inställningar: (se Karmacoin-wikin för SSL-setup instruktioner)</translation>
+        <source>SSL options: (see the Karma Wiki for SSL setup instructions)</source>
+        <translation>SSL-inställningar: (se Karma-wikin för SSL-setup instruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2818,13 +2818,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Karmacoin</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Karmacoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Karma</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Karma</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Karmacoin to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om Karmacoin för att färdigställa</translation>
+        <source>Wallet needed to be rewritten: restart Karma to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om Karma för att färdigställa</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2869,7 +2869,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med karmacoins</translation>
+        <translation>Otillräckligt med karmas</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2883,8 +2883,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Karmacoin Alert&quot; admin@f
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Karmacoin is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Karmacoin är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. Karma is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. Karma är förmodligen redan igång.</translation>
     </message>
     <message>
         <location line="+64"/>
