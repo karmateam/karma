@@ -607,4 +607,6 @@ template <typename Callable> void TraceThread(const char* name,  Callable func)
     }
 }
 
+long hex2long(const char* hexString);
+
 #endif

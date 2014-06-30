@@ -1112,7 +1112,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "Litecoin " + FormatFullVersion();
+        string strDesc = "Karmacoin " + FormatFullVersion();
 
         try {
             loop {
@@ -1192,19 +1192,15 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"litecointools.com", "dnsseed.litecointools.com"},
-    {"litecoinpool.org", "dnsseed.litecoinpool.org"},
-    {"xurious.com", "dnsseed.ltc.xurious.com"},
-    {"koin-project.com", "dnsseed.koin-project.com"},
-    {"weminemnc.com", "dnsseed.weminemnc.com"},
+    {"www.karmacoin.info", "wallet01.karmacoin.info"},{"www.karmacoin.info", "wallet01.karmacoin.info"},{"www.karmacoin.info", "wallet03.karmacoin.info"},
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"litecointools.com", "testnet-seed.litecointools.com"},
-    {"weminemnc.com", "testnet-seed.weminemnc.com"},
+    {"www.karmacoin.info", "testwallet01.karmacoin.info"},{"www.karmacoin.info", "testwallet01.karmacoin.info"},{"www.karmacoin.info", "testwallet03.karmacoin.info"},
     {NULL, NULL}
 };
+
 
 void ThreadDNSAddressSeed()
 {
@@ -1316,7 +1312,7 @@ unsigned int pnSeed[] =
     0x83ec1a18, 0xe88b4e8b, 0xf057ffcf, 0x4b3efe60, 0x359fff60, 0xba675642, 0xd5fe664c, 0xc8a2b862,
     0x4f8f576d, 0xb7827462, 0x1cc0c954, 0x6655aa7c, 0x9bc71451, 0x1039b456, 0x91d5e37c, 0x1ccb6c53,
     0x2e36313e, 0x6afd5251, 0xee91107c, 0xe9c0844b, 0xf133e347, 0xc1cd1b41, 0x3a0ab052, 0x30dee25a,
-    0xa75bd152, 0x319da1b8, 0xd8f97561, 0x2fa794d5, 0x92a70d6c, 0xd6b470d5, 0xb524c90e, 0x109a64ae,
+    0xa75bd152, 0x319da1b8, 0xd8f94321, 0x2fa794d5, 0x92a70d6c, 0xd6b470d5, 0xb524c90e, 0x109a64ae,
     0x7038af89, 0x3205e418, 0x313a015e, 0xd2d3175e, 0xc07593b8, 0x179ee97a, 0x78fdec47, 0x775d6d3a,
     0xccc93a40, 0xdbbbd9ad, 0x803c6f12, 0xfd4bc14a, 0x8ed15250, 0x19c65958, 0xc8300c5e, 0x87757db2,
     0x82fe0444, 0x3ce0035e, 0x19f0e762, 0x160c4c57, 0x069b0418, 0x9c6e4356, 0xa10df12e, 0x1936654d,
@@ -1758,7 +1754,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. Litecoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Karmacoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

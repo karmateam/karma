@@ -1,7 +1,7 @@
 src/*.exe
-src/litecoin
-src/litecoind
-src/test_litecoin
+src/karmacoin
+src/karmacoind
+src/test_karmacoin
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_litecoin
 *.orig
 *.o
 *.patch
-.litecoin
+.karmacoin
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
-litecoin-qt
-Litecoin-Qt.app
+Makefile*
+karmacoin-qt
+Karmacoin-Qt.app
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+karmacoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -30,5 +30,8 @@ qrc_*.cpp
 # Mac specific
 .DS_Store
 build
+
+# Windows
+/windows
 
 !src/leveldb-*/Makefile
