@@ -1,41 +1,38 @@
-Karmacoin integration/staging tree
+Karma integration/staging tree
 ================================
 
-http://www.karmacoin.info
+http://www.karmacoin.me
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
 Copyright (c) 2011-2014 Karmacoin Developers
 
-What is Karmacoin?
+What is Karma?
 ----------------
 
-Karmacoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.  It is designed to reward early miners more heavily than those who join later
+Karma is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.  It is designed to reward early miners more heavily than those who join later
 
  - 1 minute block targets
- - subsidy halves in 2.1M blocks (~4 years)
+
  - ~92 billion total coins
+
  - 10,000 coins per block with an additional bonus based on what block is being mined
 
  - Reward calculation
-	- 0-10,000 blocks => 10,000 + up to 2,000,000 bonus
-	- 10,000-25,000 blocks => 10,000 + up to 1,500,000 bonus
-	- 25,000-50,000 blocks => 10,000 + up to 1,000,000 bonus
-	- 50,000-100,000 blocks => 10,000 + up to 500,000 bonus
-	- 100,000-200,000 blocks => 10,000 + up to 200,000 bonus
- 	- 200,000-300,000 blocks => 10,000 + up to 50,000 bonus
-	- 300,000-400,000 blocks => 10,000 + up to 20,000 bonus
-	- 500,000+ blocks => 10,000 coins
- - 240 blocks to retarget difficulty
+      
+   needs to be rewritten
+
+ - KGW 1 block to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Karmacoin client sofware, see http://www.karmacoin.info
+the Karma client sofware, see http://www.karmashare.me
+
 
 
 License
 -------
 
-Karmacoin is released under the terms of the MIT license. See `COPYING` for more
+Karma is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -44,7 +41,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Karmacoin
+If it is a simple/trivial/non-controversial change, then one of the Karma
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -81,5 +78,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./karmacoin-qt_test
-
+    ./karma-qt_test
+ 
