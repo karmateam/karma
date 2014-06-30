@@ -1240,7 +1240,14 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
 		if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
 		PastRateAdjustmentRatio			= double(PastRateTargetSeconds) / double(PastRateActualSeconds);
 		}
+
 		EventHorizonDeviation			= 1 + (0.7084 * pow((double(PastBlocksMass)/double(28.2)), -1.228));
+        if (pindexLast->nHeight+1 >= 15700)
+            EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
+
+        if (fTestNet && pindexLast->nHeight+1 >= 20)
+            EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
+
 		EventHorizonDeviationFast		= EventHorizonDeviation;
 		EventHorizonDeviationSlow		= 1 / EventHorizonDeviation;
 		
@@ -1274,6 +1281,17 @@ unsigned int static GetNextWorkRequired_V2(const CBlockIndex* pindexLast, const 
 	unsigned int		TimeDaySeconds				= 60 * 60 * 24;
 	int64				PastSecondsMin				= TimeDaySeconds * 0.01;
 	int64				PastSecondsMax				= TimeDaySeconds * 0.14;
+
+	if (pindexLast->nHeight+1 >= 15700) {
+	    PastSecondsMin				= TimeDaySeconds * 0.25;
+	    PastSecondsMax				= TimeDaySeconds * 1;
+	}
+
+	if (fTestNet && pindexLast->nHeight+1 >= 20) {
+	    PastSecondsMin				= TimeDaySeconds * 0.25;
+	    PastSecondsMax				= TimeDaySeconds * 1;
+	}
+
 	uint64				PastBlocksMin				= PastSecondsMin / BlocksTargetSpacing;
 	uint64				PastBlocksMax				= PastSecondsMax / BlocksTargetSpacing;	
 	
@@ -1284,7 +1302,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 {
 	int DiffMode = 1;
 	if (fTestNet) {
-		if (pindexLast->nHeight+1 >= 50) { DiffMode = 2; }
+		if (pindexLast->nHeight+1 >= 10) { DiffMode = 2; }
      	//printf("Into testnet @ block # %d Diffmode: %d\n", pindexLast->nHeight+1, DiffMode );
 	}
 	else {
