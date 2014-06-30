@@ -1074,7 +1074,7 @@ int static generateMTRandom(unsigned int s, int range)
 }
 
 
-int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
+int64 static GetBlockValue_v1(int nHeight, int64 nFees, uint256 prevHash)
 {
     int64 nSubsidy = 10000 * COIN;
 	nSubsidy >>= (nHeight / 2100000); 
@@ -1107,6 +1107,48 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 	}
 	
 	return nSubsidy + bonus + nFees;
+}
+
+int64 static GetBlockValue_v2(int nHeight, int64 nFees, uint256 prevHash)
+{
+    int64 nSubsidy = 10000 * COIN;
+	nSubsidy >>= (nHeight / 2100000);
+
+	double bonus = 0;
+
+	if (nHeight<10000) {
+		bonus = 1000000;
+	} else if (nHeight>=10000 && nHeight<25000) {
+		bonus = 750000;
+	} else if (nHeight>=25000 && nHeight<50000) {
+		bonus = 500000;
+	} else if (nHeight>=50000 && nHeight<100000) {
+		bonus = 250000;
+	} else if (nHeight>=100000 && nHeight<200000) {
+		bonus = 100000;
+	} else if (nHeight>=200000 && nHeight<300000) {
+		bonus = 25000;
+	} else if (nHeight>=300000 && nHeight<400000) {
+		bonus = 10000;
+	}
+
+	return nSubsidy + (bonus*COIN) + nFees;
+}
+
+
+int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
+{
+    if (fTestNet) {
+        if (nHeight >= 5)
+            return GetBlockValue_v2(nHeight, nFees, prevHash);
+        else
+            return GetBlockValue_v1(nHeight, nFees, prevHash);
+    } else {
+        if (nHeight >= 29000)
+            return GetBlockValue_v2(nHeight, nFees, prevHash);
+        else
+            return GetBlockValue_v1(nHeight, nFees, prevHash);
+    }
 }
 
 static const int64 nTargetTimespan = 4*60*60;
@@ -1245,7 +1287,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
         if (pindexLast->nHeight+1 >= 15700)
             EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
 
-        if (fTestNet && pindexLast->nHeight+1 >= 20)
+        if (fTestNet && pindexLast->nHeight+1 >= 100)
             EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
 
 		EventHorizonDeviationFast		= EventHorizonDeviation;
@@ -1287,7 +1329,7 @@ unsigned int static GetNextWorkRequired_V2(const CBlockIndex* pindexLast, const 
 	    PastSecondsMax				= TimeDaySeconds * 1;
 	}
 
-	if (fTestNet && pindexLast->nHeight+1 >= 20) {
+	if (fTestNet && pindexLast->nHeight+1 >= 100) {
 	    PastSecondsMin				= TimeDaySeconds * 0.25;
 	    PastSecondsMax				= TimeDaySeconds * 1;
 	}
@@ -1302,7 +1344,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 {
 	int DiffMode = 1;
 	if (fTestNet) {
-		if (pindexLast->nHeight+1 >= 10) { DiffMode = 2; }
+		if (pindexLast->nHeight+1 >= 100) { DiffMode = 2; }
      	//printf("Into testnet @ block # %d Diffmode: %d\n", pindexLast->nHeight+1, DiffMode );
 	}
 	else {
