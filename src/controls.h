@@ -17,13 +17,14 @@ static const uint32_t genesisNonceOfficial = 3954796;
 static std::map<int, uint256> officialCheckpoints = 
         boost::assign::map_list_of
         (   0, hashGenesisBlockOfficial)
+        (	5555, uint256("0x68569a2212a29462a980be9768ec4c346a5894005c89399524a366fe6c9797b2"))
         ;
 
 
 
 /** Test genesis settings **/
-static const uint256 hashGenesisBlockTest("0xb78439d045d7112231cff35c8a6ad55c3a23e7d1bcff84a7195eec9b4c424660");
-static const uint32_t genesisNonceTest = 387579580;
+static const uint256 hashGenesisBlockTest("0xe0a05afbaa8cf56ff161ef99902d2d8e047e71422fe34bf3271f10c12ca2212c");
+static const uint32_t genesisNonceTest = 388440080;
 static std::map<int, uint256> testCheckpoints = 
         boost::assign::map_list_of
         (   0, hashGenesisBlockTest)
@@ -34,3 +35,4 @@ static std::map<int, uint256> testCheckpoints =
 static const uint256 hashMerkleRootOfficial("0xd4e9ef8707d3cf61aac80bf22b4de7b839b9ab635452a38063b264de02d63354");
 
 #endif
+
