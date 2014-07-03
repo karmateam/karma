@@ -37,8 +37,8 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints = officialCheckpoints;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1383887110, // * UNIX timestamp of last checkpoint block
-        2179203,    // * total number of transactions between genesis and last checkpoint
+        1404133771, // * UNIX timestamp of last checkpoint block
+        738113,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         8000.0     // * estimated number of transactions per day after checkpoint
     };
@@ -46,8 +46,8 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpointsTestnet = testCheckpoints;
     static const CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1369685559,
-        37581,
+        0,
+        0,
         300
     };
 
@@ -141,5 +141,22 @@ namespace Checkpoints
                 return t->second;
         }
         return NULL;
+    }
+    
+    uint256 GetLastAvailableCheckpoint() {
+        const MapCheckpoints& checkpoints = (fTestNet ? mapCheckpointsTestnet : mapCheckpoints);
+
+        BOOST_REVERSE_FOREACH(const MapCheckpoints::value_type& i, checkpoints) {
+            const uint256& hash = i.second;
+            if(mapBlockIndex.count(hash) && mapBlockIndex[hash]->IsInMainChain())
+                return(hash);
+        }
+        return(hashGenesisBlock);
+   }
+
+    uint256 GetLatestHardenedCheckpoint()
+    {
+        const MapCheckpoints& checkpoints = *Checkpoints().mapCheckpoints;
+        return (checkpoints.rbegin()->second);
     }
 }
