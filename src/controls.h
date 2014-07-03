@@ -19,6 +19,7 @@ static std::map<int, uint256> officialCheckpoints =
         (   0, hashGenesisBlockOfficial)
         (	5555, uint256("0x68569a2212a29462a980be9768ec4c346a5894005c89399524a366fe6c9797b2"))
         (	21757, uint256("0xf95e2a8e93b7db4fb316ffaaaf9225f7983862199782e729856cebf433bbf48f"))
+        (	209393, uint256("0x68f93f13df795b6d109b86ff03e2950dc2c0160825a3d736b3a5872a4bd1cccf"))
         ;
 
 
