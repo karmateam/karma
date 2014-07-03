@@ -71,7 +71,6 @@ Value getinfo(const Array& params, bool fHelp)
 
     Object obj;
     obj.push_back(Pair("version",       (int)CLIENT_VERSION));
-	obj.push_back(Pair("subversion",       ".4"));	
     obj.push_back(Pair("protocolversion",(int)PROTOCOL_VERSION));
     if (pwalletMain) {
         obj.push_back(Pair("walletversion", pwalletMain->GetVersion()));
