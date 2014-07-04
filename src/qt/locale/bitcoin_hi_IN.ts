@@ -2213,8 +2213,8 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: karmacoin.conf)</source>
-        <translation>configuraion की फाइल का विवरण दें (default: karmacoin.conf)</translation>
+        <source>Specify configuration file (default: karma.conf)</source>
+        <translation>configuraion की फाइल का विवरण दें (default: karma.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

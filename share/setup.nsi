@@ -1,28 +1,25 @@
-Name Karmacoin
+Name Karma
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.2
+!define VERSION 0.8.6.3
 !define COMPANY "Karmacoin project"
-!define URL http://www.karmacoin.org/
+!define URL http://www.karmacoin.me/
 
 # MUI Symbol Definitions
-!define MUI_ICON "../share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "pixmaps\karma.ico"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "../share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER Karmacoin
-!define MUI_FINISHPAGE_RUN $INSTDIR\karmacoin-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Karma
+!define MUI_FINISHPAGE_RUN $INSTDIR\karma-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -33,26 +30,21 @@ SetCompressor /SOLID lzma
 Var StartMenuGroup
 
 # Installer pages
-!insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_STARTMENU Application $StartMenuGroup
 !insertmacro MUI_PAGE_INSTFILES
-!insertmacro MUI_PAGE_FINISH
 !insertmacro MUI_UNPAGE_CONFIRM
 !insertmacro MUI_UNPAGE_INSTFILES
 
-# Installer languages
-!insertmacro MUI_LANGUAGE English
-
 # Installer attributes
-OutFile karmacoin-0.8.6.2-win32-setup.exe
-InstallDir $PROGRAMFILES\Karmacoin
+OutFile karma-${VERSION}-setup.exe
+InstallDir $PROGRAMFILES\Karma
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.2
-VIAddVersionKey ProductName Karmacoin
+VIProductVersion ${VERSION}
+VIAddVersionKey ProductName Karma
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,19 +58,12 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/karmacoin-qt.exe
-    File /oname=COPYING.txt ../COPYING
-    File /oname=readme.txt ../doc/README_windows.txt
+    File karma-qt.exe
+    File /oname=COPYING.txt ..\COPYING
     SetOutPath $INSTDIR\daemon
-    File ../src/karmacoind.exe
-    SetOutPath $INSTDIR\src
-    File /r /x *.exe /x *.o ../src\*.*
+    File karmad.exe
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
-
-    # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\karmacoin.exe
-    RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
 Section -post SEC0001
@@ -87,8 +72,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Karmacoin.lnk" $INSTDIR\karmacoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Karmacoin.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Karma.lnk" $INSTDIR\karma-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Karma.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -98,10 +83,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "karmacoin" "URL Protocol" ""
-    WriteRegStr HKCR "karmacoin" "" "URL:Karmacoin"
-    WriteRegStr HKCR "karmacoin\DefaultIcon" "" $INSTDIR\karmacoin-qt.exe
-    WriteRegStr HKCR "karmacoin\shell\open\command" "" '"$INSTDIR\karmacoin-qt.exe" "%1"'
+    WriteRegStr HKCR "karma" "URL Protocol" ""
+    WriteRegStr HKCR "karma" "" "URL:Karma"
+    WriteRegStr HKCR "karma\DefaultIcon" "" $INSTDIR\karma-qt.exe
+    WriteRegStr HKCR "karma\shell\open\command" "" '"$INSTDIR\karma-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -119,19 +104,17 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\karmacoin-qt.exe
+    Delete /REBOOTOK $INSTDIR\karma-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
-    Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
-    RMDir /r /REBOOTOK $INSTDIR\src
     DeleteRegValue HKCU "${REGKEY}\Components" Main
 SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Karmacoin.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Karmacoin.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Karmacoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Karma.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Karma.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Karma.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -139,7 +122,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "karmacoin"
+    DeleteRegKey HKCR "karma"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

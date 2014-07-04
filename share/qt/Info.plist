@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>karmacoin.icns</string>
+	<string>karma.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Karmacoin-Qt</string>
+	<string>Karma-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.karmacoin.Karmacoin-Qt</string>
+	<string>org.karma.Karma-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.karmacoin.KarmacoinPayment</string>
+            <string>org.karma.KarmaPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>karmacoin</string>
+              <string>karma</string>
             </array>
           </dict>
         </array>

@@ -2217,8 +2217,8 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: karmacoin.conf)</source>
-        <translation>Вкажіть файл конфігурації (типово: karmacoin.conf)</translation>
+        <source>Specify configuration file (default: karma.conf)</source>
+        <translation>Вкажіть файл конфігурації (типово: karma.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
