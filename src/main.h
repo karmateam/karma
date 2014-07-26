@@ -8,8 +8,11 @@
 #include "bignum.h"
 #include "sync.h"
 #include "net.h"
+#include "key.h"
 #include "script.h"
 #include "scrypt.h"
+#include "db.h"
+#include "hashblock.h"
 
 #include <list>
 
@@ -68,6 +71,8 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
+static const int nHardFork = 255000;
+static const int nSoftFork = 1406851200;
 
 extern CScript COINBASE_FLAGS;
 
@@ -159,8 +164,6 @@ bool ProcessMessages(CNode* pfrom);
 bool SendMessages(CNode* pto, bool fSendTrickle);
 /** Run an instance of the script checking thread */
 void ThreadScriptCheck();
-/** Run the miner threads */
-void GenerateBitcoins(bool fGenerate, CWallet* pwallet);
 /** Generate a new block, without valid proof-of-work */
 CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn);
 CBlockTemplate* CreateNewBlockWithKey(CReserveKey& reservekey);
@@ -1366,9 +1369,28 @@ public:
 
     uint256 GetPoWHash() const
     {
+        int nHeight = GetBlockHeight();
+        if (nHeight >= nHardFork) {
+            return Hash9(BEGIN(nVersion), END(nNonce));
+        }
         uint256 thash;
         scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
         return thash;
+    }
+
+    int GetBlockHeight() const {
+        if(vtx.size()) {
+            std::vector<unsigned char>::const_iterator scriptsig = vtx[0].vin[0].scriptSig.begin();
+            unsigned char i, scount = scriptsig[0];
+            if(scount < 4) {
+                int height = 0;
+                unsigned char *pheight = (unsigned char *) &height;
+                for(i = 0; i < scount; i++)
+                  pheight[i] = scriptsig[i + 1];
+                return(height);
+            }
+        }
+        return(-1);
     }
 
     CBlockHeader GetBlockHeader() const
@@ -1481,10 +1503,6 @@ public:
         catch (std::exception &e) {
             return error("%s() : deserialize or I/O error", __PRETTY_FUNCTION__);
         }
-
-        // Check the header
-        if (!CheckProofOfWork(GetPoWHash(), nBits))
-            return error("CBlock::ReadFromDisk() : errors in block header");
 
         return true;
     }

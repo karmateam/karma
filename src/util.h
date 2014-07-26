@@ -144,6 +144,7 @@ extern bool fServer;
 extern bool fCommandLine;
 extern std::string strMiscWarning;
 extern bool fTestNet;
+extern bool x11Fork;
 extern bool fBloomFilters;
 extern bool fNoListen;
 extern bool fLogTimestamps;
