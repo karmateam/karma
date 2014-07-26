@@ -79,6 +79,7 @@ bool fServer = false;
 bool fCommandLine = false;
 string strMiscWarning;
 bool fTestNet = false;
+bool x11Fork = false;
 bool fBloomFilters = true;
 bool fNoListen = false;
 bool fLogTimestamps = false;
