@@ -60,8 +60,6 @@ Section -Main SEC0000
     SetOverwrite on
     File karma-qt.exe
     File /oname=COPYING.txt ..\COPYING
-    SetOutPath $INSTDIR\daemon
-    File karmad.exe
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd
