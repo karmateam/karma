@@ -1351,7 +1351,6 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     
     if (!x11Fork && (nHeight >= nHardFork)) {
         x11Fork = true;
-        return(x11ProofOfWorkLimit.GetCompact());
     }
 
 	int DiffMode = 1;
