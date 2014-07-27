@@ -1348,18 +1348,20 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 {
     // The next block
     int nHeight = pindexLast->nHeight + 1;
-    
-    if (!x11Fork && (nHeight >= nHardFork)) {
-        x11Fork = true;
-    }
 
 	int DiffMode = 1;
 	if (fTestNet) {
-        if (nHeight >= 100) { DiffMode = 2; }
+        if (nHeight >= 20) { DiffMode = 2; }
 	}
 	else {
 		if (nHeight >= 10500) { DiffMode = 2; }
 	}
+
+    if (nHeight >= nHardFork) {
+        if (!x11Fork) x11Fork = true;
+        if (nHeight == nHardFork) return(x11ProofOfWorkLimit.GetCompact());
+        if (nHeight < nHardFork + 10) DiffMode = 1;
+    }
 	
 	if		(DiffMode == 1) { return GetNextWorkRequired_V1(pindexLast, pblock); }
 	else if	(DiffMode == 2) { return GetNextWorkRequired_V2(pindexLast, pblock); }
