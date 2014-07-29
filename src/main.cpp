@@ -1072,8 +1072,8 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int static generateMTRandom(unsigned int s, int range)
 {
-	random::mt19937 gen(s);
-    random::uniform_int_distribution<> dist(1, range);
+	boost::random::mt19937 gen(s);
+    boost::random::uniform_int_distribution<> dist(1, range);
     return dist(gen);
 }
 
